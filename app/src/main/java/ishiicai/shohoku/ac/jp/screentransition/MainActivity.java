@@ -35,30 +35,6 @@ public class MainActivity extends Activity{
         }
     });
     }
-
-    @Override
-    public  boolean onCreateOptionsMenu(Menu menu){
-        //infate the menu;  this adds items to the action bar if it is present.
-        return true;
-    }
-
-    @Override
-    public  boolean onOptionsitemSelected(MenuItem item){
-        //Handble action bar clicks here. The action bar will
-        //automatically handle clisks on the Home/Up button, so ling
-        //as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimlifiableIfStatement
-        if(id == R.id.action_settings){
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-
-
-    }
-}
 /*
 public class MainActivity extends AppCompatActivity {
 
